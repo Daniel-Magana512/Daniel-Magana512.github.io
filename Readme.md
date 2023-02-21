@@ -64,5 +64,8 @@ Este comando nos permite servir de forma local un sitio HTML estático generado 
 docker run -it --rm -p 4000:4000 -v "$PWD:/srv/jekyll" jekyll/jekyll:3.8 jekyll serve --force_polling
 ```
 
+**Cada vez que haya algún cambio, es importante subir al repositorio de github**
+
+
 
 
