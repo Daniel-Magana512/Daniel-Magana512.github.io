@@ -17,7 +17,7 @@ Este año he tenido la oportunidad de hacer un Erasmus en Portugal, para hacer l
 [wordpress]: https://informateycomunica.wordpress.com/2019/09/25/presentacion
 
 documentation at [jekyllrb.com](https://jekyllrb.com/).
-s
+
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
 [minima](https://github.com/jekyll/minima)
