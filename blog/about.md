@@ -13,7 +13,7 @@ En mi tiempo libre me gusta jugar a fútbol, salir con los amigos , ver películ
 
 Una cosa que no he mencionado antes es que adoro viajar, aprovecho cualquier excusa para salir de mi entorno para conocer nuevos lugares.
 Este año he tenido la oportunidad de hacer un Erasmus en Portugal, para hacer las practicas de mi anterior ciclo.
-
+s
 [wordpress]: https://informateycomunica.wordpress.com/2019/09/25/presentacion
 
 documentation at [jekyllrb.com](https://jekyllrb.com/).
