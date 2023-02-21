@@ -66,6 +66,9 @@ docker run -it --rm -p 4000:4000 -v "$PWD:/srv/jekyll" jekyll/jekyll:3.8 jekyll 
 
 **Cada vez que haya algún cambio, es importante subir al repositorio de github**
 
+Nos vamos a actions y podemos ver que se está procesando el cambio:
+
+![](./fotos/foto4.png)
 
 
 
