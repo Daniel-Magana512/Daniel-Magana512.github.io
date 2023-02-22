@@ -2,7 +2,6 @@
 layout: post
 title:  "Práctica 6 Prestashop mediante Ansible"
 date:   2023-02-21 01:38:25 -0600
-categories: jekyll update
 ---
 
 Esta práctica es muy parecido a la que hice en el repositorio 5, la única diferencia es que vamos a utilizar una herramienta llamada _Ansible_ , esta herramienta, nos permite configurar los equipos de una red sin que tengamos que hacerlo uno a uno , esto hace que la configuración de las máquinas sea mucho más optimo.
@@ -24,7 +23,7 @@ Para ello habrá que especificar mediante las IPs de los los grupos de los equip
 * **ansible_ssh_private_key es la clave privada**
 * **ansible_ssh_common_args es para que no nos pregunte si aceptamos los terminos al principio**
 
-![](../fotos_practicas/foto_1_6.PNG)
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto-practica_6/foto_1_6.PNG)
 
 
 ## **Archivo installl_lamp.yml**
