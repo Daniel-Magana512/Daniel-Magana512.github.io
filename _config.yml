@@ -1,14 +1,25 @@
+
+#Ponemos el título de blog
 title: Bienvenido al blog de Daniel Magaña Pérez
+
+#Ponemos el coreeo
 email: danielmp01189@gmail.com
+
+#Ponemos la descripción blog del blog
 description: >- # this means to ignore newlines until "baseurl:"
   Bienvenidos al blog de Daniel Magaña, aquí encontraras algunas prácticas que 
   hemos realizado en la asignatura de iaw
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "Daniel-Magana512@github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+#Ponemos la url para acceder
+url: "https://Daniel-Magana512.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+#Ponepos la cuenta de twitter
 twitter_username: danielmagana
+
+#Ponemos la cuenta de github
 github_username:  Daniel-Magana512
 
-# Build settings
+# Carácteristicas que va a tener el blog
 markdown: kramdown
 theme: minima
 plugins:
