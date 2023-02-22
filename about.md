@@ -15,6 +15,6 @@ Una cosa que no he mencionado antes es que adoro viajar, aprovecho cualquier exc
 Este año he tenido la oportunidad de hacer un Erasmus en Portugal, para hacer las practicas de mi anterior ciclo.
 
 
-![](https://Daniel-Magana512.github.io/blog/foto_principal/foto_personal.png)
+![](https://Daniel-Magana512.github.io/foto_principal/foto_personal.png)
 
 [wordpress](https://informateycomunica.wordpress.com/2019/09/25/presentacion)
