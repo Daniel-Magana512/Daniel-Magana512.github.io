@@ -12,7 +12,6 @@ Me considero una persona trabajadora, responsable y humilde.
 En mi tiempo libre me gusta jugar a fútbol, salir con los amigos , ver películas de Marvel y leer.
 
 Una cosa que no he mencionado antes es que adoro viajar, aprovecho cualquier excusa para salir de mi entorno para conocer nuevos lugares.
-Este año he tenido la oportunidad de hacer un Erasmus en Portugal, para hacer las practicas de mi anterior ciclo.
 
 
 ![](https://Daniel-Magana512.github.io/fotos_practicas/foto_principal/foto_personal.png)
