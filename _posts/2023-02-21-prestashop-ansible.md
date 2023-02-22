@@ -30,7 +30,8 @@ Para ello habrá que especificar mediante las IPs de los los grupos de los equip
 
 Esto lo voy a explicar una vez ya que se repetirá cada vez que creemos un archivo con extensión yml con la herramienta de Ansible.
 
-![](../fotos_practicas/foto_2_6.PNG)
+
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_6/foto_2_6.PNG)
 
 Empezamos poniendo el --- , esto se utilizar para definir una lista.
 **name** funciona solo de forma informativa.
@@ -53,8 +54,8 @@ En el **tasks** vamos a ejecutar las operaciones.
 
 Pasamos a la siguiente foto de este archivo:
 
-![](../fotos_practicas/foto_3_6.PNG)
 
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_6/foto_3_6.PNG)
 
 * **Para borrar un archivo** debo de poner **file** para definir que es un archivo, **path** es la ubicación entera del archivo. Con el **state: absent**.
 
@@ -66,7 +67,7 @@ Pasamos a la siguiente foto de este archivo:
 Aquí vamos a configurar todo lo necesario para poner utilizar el protocolo https , en nuestra tienda de **Prestashop** de manerá que nos comunicaremos con la tienda a través del puerto 443.
 
 
-![](../fotos_practicas/foto_4_6.PNG)
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_6/foto_4_6.PNG)
 
 Creo dos variables:
 
@@ -86,7 +87,8 @@ Después ejecuto el siguiente contenido:
 
 ## **Archivo installl_tools.yml**
 
-![](../fotos_practicas/foto_5_6.PNG)
+
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_6/foto_5_6.PNG)
 
 * La variable que pongo al principio viene dada por una operación que explicaré más adelante(básicamente cuando me descargue la herramienta que me dice las necesidades de prestashop me pedia esos módulos).
 
@@ -102,7 +104,7 @@ Después ejecuto el siguiente contenido:
 Seguimos con el archivo:
 
 
-![](../fotos_practicas/foto_6_6.PNG)
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_6/foto_6_6.PNG)
 
 * **Instalación de la variables que he generado antes** Una cosa que no he mencionado antes, es que las variables deben de estar dentro de {{Variable}} , así es como debería de estar.
 
@@ -120,7 +122,7 @@ Con **line** me permite poner la linea tal cual necesito, el problema de esto qu
 
 Seguimos en el mismo archivo:
 
-![](../fotos_practicas/foto__7_6.PNG)
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_6/foto__7_6.PNG)
 
 * **Descargar un archivo** Esto equivale al comando wget, podria poner **get_url** y funcionaría. En la **url** pongo la dirección del archivo y en **dest** pongo el destino.
 
@@ -131,7 +133,7 @@ Seguimos en el mismo archivo:
 Seguimos con el archivo:
 
 
-![](../fotos_practicas/foto_8_6.PNG)
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_6/foto_8_6.PNG)
 
 * **Añadimos los permisos de escritura necesario , además de los permisos de apache y loa hacemos de forma recursiva**
 
@@ -152,7 +154,7 @@ Seguimos con el archivo:
 En este archivo vamos a instalar y configurar **Prestashop** **PhpMyAdmin**
 
 
-![](../fotos_practicas/foto_9_6.PNG)
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_6/foto_9_6.PNG)
 
 Declaramos dos grupos de variables.
 
@@ -173,7 +175,7 @@ Nos vamos a los comandos
 Seguimos con el mismo archivo
 
 
-![](../fotos_practicas/foto_10_6.PNG)
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_6/foto_10_6.PNG)
 
 * **Vamos a Instalar Prestashop** con la opción de **ansible.builtin.command** nos permitirá insertar información (variables) al archivo **index_cli.php** la opción de *args* le pasamos el directorio donde se encuentra el archivo mencionado.
 
@@ -190,7 +192,7 @@ Seguimos con el mismo archivo
 Cuando instalé todo en el cliente descargé los archivos **000-default.conf** y **000-default-le-ssl.conf** los metí en un repositorio de github de manerá que cuando quiera modificar algo solo tengo que modificarlo en github y hacer como **un git clone** borrando los iriginales y aplicanod las modificaciones
 
 
-![](../fotos_practicas/foto_11_6.PNG)
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_6/foto_11_6.PNG)
 
 * **Eliminamos los archivos 000-default.conf y 000-default-le-ssl.conf**
 
@@ -208,7 +210,7 @@ La primera línea es para que me coja por defecto el **prestashop**.
 
 La segunda línea es para que me me **permita navegar** por la página web 
 
-![](../fotos_practicas/foto_12_6.PNG)
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_6/foto_12_6.PNG)
 ## **Comprobación de que funciona**
 
-![](../fotos_practicas/foto_13_6.PNG)
+![](https://Daniel-Magana512.github.io/fotos_practicas/foto_practica_6/foto_13_6.PNG)
