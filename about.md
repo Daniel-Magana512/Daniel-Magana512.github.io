@@ -17,7 +17,8 @@ Este año he tenido la oportunidad de hacer un Erasmus en Portugal, para hacer l
 [wordpress](https://informateycomunica.wordpress.com/2019/09/25/presentacion)
 
 
-![hola](/Daniel-Magana512.github.io/blog/fotos_practicas/foto_personal.png)
+![](https://Daniel-Magana512.github.io/blog/fotos_practicas/foto_personal.png)
+
 
 documentation at [jekyllrb.com](https://jekyllrb.com/).
 
