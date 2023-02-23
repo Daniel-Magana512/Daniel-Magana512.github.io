@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Practica14.1 Instalación de WordPress usando contenedores"
+title:  "Práctica 14.1 Instalación de WordPress usando contenedores"
 date:   2023-02-23 01:38:25 -0600
 ---
 
