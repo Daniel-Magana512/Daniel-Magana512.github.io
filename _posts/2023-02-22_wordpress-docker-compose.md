@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Práctica 14.1 Instalación de WordPress usando contenedores"
-date:   2023-02-23 01:38:25 -0600
+date:   2023-02-23 12:38:27 -0600
 ---
 
 ## **Para la creación de la Instancia**
