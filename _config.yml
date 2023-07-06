@@ -2,9 +2,9 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://github.com/Daniel-Magana512/Daniel-Magana512.github.io/tree/main/_site'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
-baseurl: "https://github.com/Daniel-Magana512/Daniel-Magana512.github.io/tree/main/_site/index.html"
+baseurl: https://github.com/Daniel-Magana512/Daniel-Magana512.github.io/tree/main/_site/index.html
 
 # Title of the Site
 title: What A Theme
