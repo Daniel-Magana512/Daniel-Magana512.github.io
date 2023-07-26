@@ -18,10 +18,18 @@ body {
   .titulo {
     text-align: center;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 30px;
     margin-bottom: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agregado: Sombra */
   }
+
+ li, h2 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+
   
   .fecha {
     font-size: 14px;
