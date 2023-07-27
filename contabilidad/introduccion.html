@@ -12,11 +12,11 @@
 <body>
 	<div class="container">
 		<article class="articulo">
-			<h1 class="titulo">Introducción</h1>
-			<p class="fecha">Fecha de publicación: 8 de julio de 2023</p>
+			<h1 class="titulo">Introducción Conceptos Contables</h1>
 			<div class="imagen-container">
-				<img class="imagen" src="./images/1.png" alt="Imagen del artículo">
+				<img class="imagen" src="../images/1.png" alt="Imagen del artículo">
 			</div>
+			<p class="fecha">Fecha de publicación: 8 de julio de 2023</p>
 			<div class="contenido">
 				<ol>
 					<li>
@@ -135,7 +135,32 @@
 				</ol>
 			</div>
 		</article>
+<!-- Área de comentarios -->
+<div class="comentarios-container">
+    <h3>Deja un comentario:</h3>
+    <input type="text" id="nombre" placeholder="Tu nombre">
+    <textarea id="comentario" placeholder="Escribe tu comentario"></textarea>
+    <button onclick="guardarComentario()">Enviar comentario</button>
+  </div>
+
+  <div class="comentarios">
+    <h3>Comentarios:</h3>
+    <div id="comentarios"></div>
+  </div>
+
+  <form action="https://api.staticman.net/v3/entry/github/USUARIO/REPOSITORIO/master/comments" method="POST">
+	<input type="text" name="name" placeholder="Nombre" required>
+	<textarea name="comment" placeholder="Comentario" required></textarea>
+	<button type="submit">Enviar Comentario</button>
+  </form>
+  
+  
+  
+
 	</div>
+
+
+
 	</div>
 </body>
 
