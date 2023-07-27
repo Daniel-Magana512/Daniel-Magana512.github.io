@@ -134,12 +134,29 @@
 
 				</ol>
 			</div>
+			<script>
+				// Espera a que el contenido de la página se cargue
+				document.addEventListener("DOMContentLoaded", function () {
+					// Obtiene el elemento que contiene el texto "Add a comment" y lo modifica
+					const addCommentElement = document.querySelector(".commento-head-comment");
+					if (addCommentElement) {
+						addCommentElement.innerText = "Agregar un comentario"; // Reemplaza el texto en español
+					}
+			
+					// Obtiene el elemento del botón de publicar y lo modifica
+					const publishButton = document.querySelector(".commento-post-comment");
+					if (publishButton) {
+						publishButton.innerText = "Publicar"; // Reemplaza el texto en español
+					}
+				});
+			</script>
+			
 
 			<script defer src="https://cdn.commento.io/js/commento.js"></script>
-<div id="commento"></div>
+			<div id="commento"></div>
 		</article>
 
-  
+
 
 	</div>
 
