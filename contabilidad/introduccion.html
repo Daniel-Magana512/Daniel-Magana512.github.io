@@ -135,29 +135,31 @@
 				</ol>
 			</div>
 			
-<div class="comentarios">
-<!-- Coloca esto donde quieras que aparezcan los comentarios -->
-<div id="disqus_thread"></div>
-<script>
-    /**
-     *  REEMPLAZA "nombre-del-sitio" con el nombre que le diste a tu sitio en Disqus
-     */
-	var disqus_config = function () {
-        this.page.url = 'https://daniel-magana512.github.io/contabilidad/introduccion.html';
-        this.page.identifier = 'introduccion-conceptos-contables';
-    };
-    (function () {
-        var d = document, s = d.createElement('script');
-        s.src = 'https://comentarios-blog-2.disqus.com/embed.js';  // Cambia "nombre-del-sitio" por el nombre que le diste a tu sitio en Disqus
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>
-    Por favor, activa JavaScript para ver los comentarios.
-</noscript>
-</div>
+
 		</article>
+	</div>
+		<div class="comentarios container">
+			<!-- Coloca esto donde quieras que aparezcan los comentarios -->
+			<div id="disqus_thread"></div>
+			<script>
+				/**
+				 *  REEMPLAZA "nombre-del-sitio" con el nombre que le diste a tu sitio en Disqus
+				 */
+				var disqus_config = function () {
+					this.page.url = 'https://daniel-magana512.github.io/contabilidad/introduccion.html';
+					this.page.identifier = 'introduccion-conceptos-contables';
+				};
+				(function () {
+					var d = document, s = d.createElement('script');
+					s.src = 'https://comentarios-blog-2.disqus.com/embed.js';  // Cambia "nombre-del-sitio" por el nombre que le diste a tu sitio en Disqus
+					s.setAttribute('data-timestamp', +new Date());
+					(d.head || d.body).appendChild(s);
+				})();
+			</script>
+			<noscript>
+				Por favor, activa JavaScript para ver los comentarios.
+			</noscript>
+			
 	</div>
 
 </body>
