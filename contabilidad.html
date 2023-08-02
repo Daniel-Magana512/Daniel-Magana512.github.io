@@ -77,7 +77,7 @@
 				  <li><a href="informatica.html"><i class="fas fa-laptop"></i> Informática</a></li>
 				  <li><a href="portfolio.html"><i class="fas fa-folder"></i> Portfolio</a></li>
 				  <li><a href="sobremi.html"><i class="fas fa-user"></i> Sobre Mí</a></li>
-				  <li><a href="contacto.html"><i class="fas fa-envelope"></i> Contacto</a></li>
+				  <li><a href="contacto.html"><i class="fas fa-envelope"></i>Newsletter</a></li>
 				</ul>
 			  </nav>
 
@@ -96,6 +96,11 @@
 			<div class="fh5co-narrow-content">
 				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Publicaciones de Contabilidad</h2>
 				<div class="row row-bottom-padded-md">
+					<div class="animate-box" data-animate-effect="fadeInLeft">
+
+							  <div><input type="text" id="searchInput" placeholder="Buscar"></div>
+							</div>
+						  </div>
 					<div class="col-md-3 col-sm-6 col-padding animate-box" data-animate-effect="fadeInLeft">
 						<div class="blog-entry">
 							<a href="./contabilidad/introduccion.html" class="blog-img"><img src="images/probar2.jpg" class="img-responsive" alt="Free HTML5 Bootstrap Template by FreeHTML5.co"></a>
@@ -230,6 +235,43 @@
 							</div>
 						</div>
 					</div>
+					<div id="noResultsMessage" style="display: none;">No se encontraron resultados.</div>
+
+<script>
+  function search() {
+    var input, filter, container, entry, title, i, txtValue;
+    input = document.getElementById('searchInput');
+    filter = input.value.toUpperCase();
+    container = document.getElementById('fh5co-main');
+
+    entry = container.getElementsByClassName('blog-entry');
+
+    var noResultsMessage = document.getElementById('noResultsMessage');
+    var foundResults = false;
+
+    for (i = 0; i < entry.length; i++) {
+      title = entry[i].getElementsByTagName('h3')[0];
+      if (title) {
+        txtValue = title.textContent || title.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          entry[i].style.display = '';
+          foundResults = true;
+        } else {
+          entry[i].style.display = 'none';
+        }
+      }
+    }
+
+    if (foundResults) {
+      noResultsMessage.style.display = 'none';
+    } else {
+      noResultsMessage.style.display = 'block';
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', search);
+  document.getElementById('searchInput').addEventListener('keyup', search);
+</script>
 				</div>
 			</div>
 		
